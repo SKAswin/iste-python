@@ -1,0 +1,91 @@
+# 1 question
+# a=7.3
+# b=5+4j
+# c=sum((a,b))
+# or c=a+b
+# print(c)
+# a=4e4
+# b=4E4
+# print(type(a))
+# print(type(b))
+# a=3+5j
+# print(a.real)
+# print(a.imag)
+# e=2.71828
+# x=int(e)
+# print(x)
+
+# question 2
+# def func(d):
+#     for key in d:
+#         print("key:",key,"value:",d[key])
+# d = {'a': 1, 'b': 2, 'c': 3}
+# func(d)
+# def func(d):
+#     for key in d:
+#         print("key:", key, "Value:", d[key])
+#
+#
+# # Driver's code
+# D = {'a': 1, 'b': 2, 'c': 3}
+# func(D)
+
+#question number 3
+# n1=int(input("give the input number for the factorial you need to find\n"))
+# x=1
+# for i in range (1,n1+1):
+#     x=x*i
+# print("the factorial of the number is",x)
+
+# """question 4
+# Fibonacci series is let n is the n the term of the series
+# and x be the n1+1 term and y be the n1-1 term
+# then n1=x-y"""
+# x=int(input("the number of terms you need\n"))
+# # # for the easy of code let the first term be 0 and second term be1
+# while(True):
+#     n1=0
+#     n2=1
+#     a=n1+n2
+#     b=a+n2
+
+# question 5
+# x=[]
+# for i in range(3):
+#     y=int(input())
+#     x.append(y)
+# # print(x)
+# y=0
+# for i in x:
+#     # print(i)
+#     y=y+i
+# # print(y)
+# if y>0:
+#     print("positive and the value of the sum is",y)
+# else:
+#     print("negative and the value of the sum is",y)
+
+# question 6
+# x=input("what is the string you want to give\n")
+# # x="aswin"
+# for i in range(0,len(x)):
+#     # print(x[i])
+#     if x[i]=="a" or x[i]=="e" or x[i]=="i" or x[i]=="o" or x[i]=="u":
+#         print(x[i],end="")
+#
+# for j in range(0,len(x)):
+#     if x[j] == "a" or x[j] == "e" or x[j] == "i" or x[j] == "o" or x[j] == "u":
+#         print(end="")
+#     else:
+#         print(x[j],end="")
+
+# question 7
+# n=int(input("what is th number\n"))
+# m=int(input("the number of multiples you need\n"))
+# for i in range(m):
+#     print(n,"x",i,"=",n*i)
+# or u can do it like
+# def multiply(m,n):
+#     a=range(n,(m*n)+1,n)
+#     print(*a)
+# multiply(4,3)
